@@ -29,13 +29,10 @@ h3{
 .container button{
     padding: 10px;
     border: none;
-    background-color: crimson;
+    background-color: transparent;
     font-weight: bold;
     cursor: pointer;
     transition: all .5s;
     color: white;
-}
-.container button:hover{
-    background-color: #111;
-    color: crimson;
+    border-radius: 0px 20px 20px 0px;
 }
