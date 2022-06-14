@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: aliceblue;
+    height: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+#movies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 5px;
+}
+.movie:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px crimson;
+}
+.movie img{
+    height: 270px;
+    width: 200px;
+}
+.movie p{
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+    background-color: #111;
+    padding: 10px;
+}

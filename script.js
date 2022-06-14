@@ -3,10 +3,10 @@ let numberImg = 1;
 function imgChanger_add() {
   let img = document.querySelector(".imagem");
 
-  if (numberImg < 10) {
+  if (numberImg < 9) {
     numberImg += 1;
   } else {
-    numberImg = 10;
+    numberImg = 9;
   }
 
   img.src = "./img/img" + numberImg + ".png";

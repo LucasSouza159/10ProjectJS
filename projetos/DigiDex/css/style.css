@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #111;
+    color: aliceblue;
+    padding: 20px;
+    gap: 10px;
+}
+header input{
+    border: 2px solid crimson;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+}
+header input::placeholder{
+    color: crimson;
+    font-size: 11px;
+}
+header button{
+    border: none;
+    outline: none;
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    transition: all .5s;
+}
+header button:hover{
+    border: 2px solid crimson;
+    background-color: #222;
+    color: crimson;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    flex-wrap: wrap;
+    word-wrap: normal;
+}
+
+#digimon{
+    height: 310px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+#digimon:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px aliceblue;
+}
+
+#digimon img{
+    height: 270px;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#digimon p{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
