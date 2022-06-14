@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #111;
+    box-shadow: 0px 1px 10px #111;
+}
+.container input{
+    outline: none;
+    border: 2px solid crimson;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #fff;
+    width: 300px;
+    font-weight: bold;
+}
+.container input::placeholder{
+    color: crimson;
+}
+.container button{
+    padding: 12px;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+}
+.container span{
+    font-size: 1.5rem;
+    color: white;
+    align-items: center;
+    margin-right: 10px;
+}
+#tarefa{
+    padding: 10px;
+    margin-bottom: 10px;
+}
