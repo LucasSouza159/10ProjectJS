@@ -3,7 +3,7 @@ let numberImg = 1;
 function imgChanger_add() {
   let img = document.querySelector(".imagem");
 
-  if (numberImg < 9) {
+  if (numberImg <= 9) {
     numberImg += 1;
   } else {
     numberImg = 9;
